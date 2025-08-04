@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload and Merge PDFs</title>
+</head>
+<body>
+  <h2>PDF, Image & Doc Merge Tool</h2>
+  <form method="POST" action="/merge" enctype="multipart/form-data">
+    <input type="file" name="files" multiple required>
+    <button type="submit">Merge & Download PDF</button>
+  </form>
+</body>
+</html>
