@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ultaPDF
+    env: docker
+    plan: free
+    rootDir: . # <--- यह Root Directory define कर रहा है (मतलब current folder ही root hai)
+    dockerfilePath: ./Dockerfile
